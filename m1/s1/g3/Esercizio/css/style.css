@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+
+body {
+    font-family: 'Vesper Libre', serif;
+}
+
+#header-primario {
+    text-align: center;
+}
+
+#header-primario img {
+    width: 200px;
+}
+
+#header-primario p {
+    background-color: #fdfbf1;
+    border-top: 1px solid #f2c545;
+    padding: 10px;
+    color: #203c37;
+}
+
+#header-primario span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+video {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.image-author {
+    color: grey;
+    text-align: center;
+}
+
+.featured {
+    border-left: 1px solid #f2c545;
+    padding-left: 10px;
+}
+
+.featured span {
+    color: red;
+}
+
+a {
+    color: #248181;
+}
+
+h2 {
+    border-bottom: 1px solid #10c9c9;
+    padding: 20px 0;
+}
+
+ul li {
+    line-height: 30px;
+}
+
+#paragrafo-rientro {
+    padding-left: 25px;
+}
+
