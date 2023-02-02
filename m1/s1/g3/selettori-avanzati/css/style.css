@@ -1,0 +1,7 @@
+section span {
+    text-decoration: line-through;
+}
+
+section + small {
+    font-weight: bold;
+}
