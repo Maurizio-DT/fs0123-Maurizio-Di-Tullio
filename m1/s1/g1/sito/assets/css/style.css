@@ -1,0 +1,72 @@
+#foto-profilo {
+    width: 100px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #495579;
+}
+
+header {
+    background-color: #263159;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Bitter', serif;
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+    color: #FFFBEB;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+main {
+    width: 80%;
+    background-color: #263159;
+    color: #FFFBEB;
+    margin: 10px auto 10px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+main p {
+    margin-top: 15px;
+    line-height: 1.2rem;
+}
+
+footer {
+    width: 80%;
+    background-color: #263159;
+    color: #FFFBEB;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .fab, footer .fas {
+    color: #FFFBEB;
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
+
+#contenitore-icone {
+    margin: 10px 0 15px 0;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+small {
+    font-size: 0.8rem;
+}
