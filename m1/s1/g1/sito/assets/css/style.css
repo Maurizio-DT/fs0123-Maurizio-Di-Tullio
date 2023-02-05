@@ -38,8 +38,41 @@ main {
     padding: 20px;
 }
 
+main h2 {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
 main p {
     margin-top: 15px;
+    line-height: 1.2rem;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: bisque;
+}
+
+main a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: bisque;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.2rem;
+    padding-top: 1rem;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+ul li, ol li {
     line-height: 1.2rem;
 }
 
@@ -69,4 +102,29 @@ h3 {
 
 small {
     font-size: 0.8rem;
+}
+
+table {
+    margin-top: 2rem;
+    background-color: #495579;
+    border-radius: 15px;
+}
+
+table td {
+    padding: 1rem;
+}
+
+table tr {
+    border-bottom: 1px solid rgba(100, 100, 100, 0.9);
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
+
+table tr td:first-child {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2.5rem;
 }
