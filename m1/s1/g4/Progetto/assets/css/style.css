@@ -22,6 +22,14 @@ ul li {
     content: '⟸';
 }
 
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 0;
+}
+
 
 /* HEADER */
 #header-1 {
@@ -29,7 +37,7 @@ ul li {
     margin: 20px;
     padding: 30px;
     text-align: center;
-    background-color: rgb(19, 68, 85);
+    background-image: linear-gradient(#0099bb, #006688);
     color: white;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -58,9 +66,109 @@ h1 {
     line-height: 50px;
     margin: 25px auto;
 }
+
+.autore {
+    color: rgb(179, 179, 179);
+}
+
+article p {
+    margin-top: 1rem;
+    line-height: 1.4rem;
+}
+
+article ul, article ol {
+    padding-left: 2rem;
+    line-height: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+article ul li {
+    list-style-type: disc;
+
+}
+
+ul code {
+    background-color: #DEE0E1;
+    border: 1px solid #929A93;
+    border-radius: 5px;
+}
+
+article strong {
+    color: rgb(145, 0, 145);
+    font-weight: bold;
+}
+
+article ol {
+    margin-top: 1rem;
+}
+
+article a, article a:visited {
+    color: #0099bb;
+    font-weight: bold;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 20px;
+}
+
 /* TABELLE */
+table {
+    margin-top: 1rem;
+    width: 100%;
+    border-bottom: 2px solid #4371CE;
+    margin-bottom: 1.5rem;
+}
+
+table caption {
+    text-align: center;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+table thead {
+    background-color: #4371CE;
+    color: #fff;
+}
+
+table th {
+    padding: 1rem;
+    border-right: 1px solid #fff;
+}
+
+table tbody {
+    text-align: center;
+}
+
+table td {
+    padding: 1rem;
+}
+
+tr:nth-child(even) {
+   background-color: #F4f4f4;
+   border-top: 1px solid #d5d5d5;
+   border-bottom: 1px solid #d5d5d5;
+}
 
 /* FORM */
+#novità-form {
+    background-color: #E5E3E0;
+    margin: 2rem 0;
+}
+
+#novità-form p {
+    padding: 0 15px 15px 15px;
+}
+
+button {
+    background-color: #3468D2;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
 
 /* ELEMENTI NELL' ASIDE */
 
