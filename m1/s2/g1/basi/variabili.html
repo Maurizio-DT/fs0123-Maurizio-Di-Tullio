@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var numero = 5;
+        var nomeUtente = 'Maurizio';
+
+
+        /*tipi di dato
+
+        string ==> "nome"
+        number ==>  10
+        boolean  ==>  true/false
+        array  ==>    []
+        object  ==> {}
+
+        */
+
+        var a = 4;
+        var b = 3;
+        var c = a + b;
+        console.log(c);
+
+        /* 
+        Operatori matematici
+
+            +  per la somma
+            -  per la sottrazione
+            *  per la moltiplicazione
+            /  per la divisione
+
+        */
+
+        var nome = "Mario";
+        var saluto = "Ciao";
+
+        console.log(saluto + ' ' + nome);
+
+        /*
+            conversione tipi di dato
+            (parkour)
+        */
+
+        var num = 10;
+        var strNum = '10';
+
+        console.log(num + strNum)  // il numero si converte in stringa, avviene un concatenamento (perché la + ha doppia funzione)
+        console.log(num * strNum)  // il * ha un solo valora, la stringa viene convertita in numero, avremo una moltiplicazione
+        console.log(num * '10a')   // se ci sono numero+lettera restituisce NaN perché la stringa contiene anche una lettera
+
+        console.log(typeof num * '10a');
+    </script>
+</body>
+</html>
