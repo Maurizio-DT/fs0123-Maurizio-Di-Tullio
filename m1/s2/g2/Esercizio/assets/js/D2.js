@@ -27,8 +27,9 @@ Boolean bool = "è un tipo di dato che ha solo due variabili: true => vero & fal
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let name = "Gabriele"
+let name = "Maurizio"
 console.log(name);
+
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -57,10 +58,10 @@ let x = 12
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /*
-name = "Cuscinà"
+name = "Di Tullio"
 
-const NAME = "Gabriele" 
-NAME = "Cuscinà"
+const NAME = "Maurizio" 
+NAME = "Di Tullio"
 console.log(NAME);
 */
 
