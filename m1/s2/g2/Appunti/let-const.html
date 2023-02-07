@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        
+        // apro un blocco
+        {
+            var a  = 0;   // non soggetta a block scope
+            console.log(a)
+        }
+        console.log(a)
+
+        {
+            let b = 1;
+            console.log(b)
+        }
+        //console.log(b)
+
+        {
+            let b = 1;
+            console.log(b)
+        }
+
+        
+        var c = 2;
+        {
+            let c = 3;     
+            console.log(c);   //mi riferisco alla let della riga 35
+        }
+        console.log(c)  //mi riferisco alla variabile della riga 33
+
+        //CONST
+
+        const D = 4;
+       // d = 9;  avrò un errore
+
+       //convenzione di naming
+       const NOME_DELLA_COSTANTE = 1;
+
+       // valori interni
+       const OGGETTO = {
+            nome: 'Mario',
+            cognome: 'Rossi'
+        }
+
+        OGGETTO.nome = 'Marco'
+        console.log(OGGETTO)
+
+
+    </script>
+</body>
+</html>

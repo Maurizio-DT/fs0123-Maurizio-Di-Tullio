@@ -15,5 +15,3 @@ if(color == "rosso"){
 }else {
     document.write("Scegli tra rosso, verde o blu, siamo poveri :(")
 }
-Footer
-© 2023 GitHub, Inc.
